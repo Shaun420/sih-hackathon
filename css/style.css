@@ -1,0 +1,215 @@
+* {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+body {
+	width: 100%;
+	height: auto;
+	background-image: linear-gradient(to right, #d7d4f0, #cfd1f4, #c5cff8, #b8cdfc, #a9ccff);
+	background-color: #d7e4f4;
+}
+
+.main-body {
+	margin: 2rem;
+	background-color: #f4f4f4;
+	border-radius: 2.5rem;
+}
+
+.navbar {
+	padding: 0;
+}
+
+.nav {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 1rem 3rem;
+	background-color: #6d5ce8;
+	border-radius: 2.25rem;
+}
+
+.nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 0.9rem;
+	font-weight: 500;
+}
+
+.profile-div {
+	margin-left: auto;
+}
+
+img.profile-icon {
+	min-height: 1rem;
+	max-height: 2.5rem;
+	border-radius: 50%;
+}
+
+.nav-item {
+	width: 6rem;
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 1rem;
+}
+
+.nav-item:hover {
+	background-color: rgb(161, 161, 161);
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+}
+
+.nav-item > .material-symbols-outlined {
+	color: #fff;
+	font-size: 2rem;
+	padding-bottom: 0.25rem;
+}
+
+.nav-branding {
+	margin-right: auto;
+}
+
+a.navbar-brand {
+	font-size: 0.9rem;
+}
+
+.dashboard {
+	width: 100%;
+	padding: 1rem;
+}
+
+.row > div {
+	padding: 1rem;
+}
+
+/*
+.banner-div, .schedule-div {
+	max-height: 20rem;
+}*/
+
+.banner-image {
+	max-height: 100%;
+	width: 50%;
+	padding: 1rem;
+}
+
+.large-img {
+	max-height: 100%;
+	width: 100%;
+	padding: 1rem;
+}
+
+.graph-img {
+	max-height: 100%;
+	width: 90%;
+	padding: 1rem;
+}
+
+.banner-text {
+	width: 50%;
+	text-align: center;
+}
+
+.banner-text > button {
+	margin-top: 2rem;
+}
+  
+.dashboard h3, .dashboard h4, .dashboard h5 {
+	color: rgb(92, 92, 92);
+}
+
+.card {
+	box-shadow: 0 0 1rem 0.15rem rgba(167, 167, 167, 0.5);
+	border-radius: 2rem;
+	align-items: center;
+}
+
+.card button {
+	width: fit-content;
+	--bs-btn-bg: #6d5ce8;
+	--bs-btn-border-color: #6d5ce8;
+	--bs-btn-hover-border-color: #6553e9;
+	--bs-btn-hover-bg: #6553e9;
+	--bs-btn-box-shadow: 0 0 1rem 0rem #6553e9;
+	--bs-btn-active-bg: #523dee;
+	--bs-btn-active-border-color: #523dee;
+	--bs-btn-active-color: #fff;
+	--bs-btn-color: #fff;
+	--bs-btn-hover-color: #fff;
+	--bs-btn-border-radius: 5rem;
+	--bs-btn-font-size: 0.8rem;
+	--bs-btn-padding-x: 1.5rem;
+	--bs-btn-padding-y: 0.5rem;
+}
+
+.schedule-top-div, .graph-top-div {
+	border-bottom: solid 0.1rem #bbb;
+	width: 90%;
+	padding-bottom: 0.75rem;
+}
+
+.graph-top-div button {
+	border-radius: 0.3rem;
+	--bs-btn-padding-x: 1rem;
+}
+
+button.apply-btn {
+	width: 30%;
+	margin-bottom: 1.5rem;
+}
+
+.banner-div p {
+	color: rgb(129, 129, 129);
+	width: 50%;
+}
+
+.your-doctors-img {
+	max-height: 100%;
+	width: 75%;
+	padding: 1rem;
+}
+
+.schedule-div .material-symbols-outlined {
+	color: gold;
+	fill: gold;
+}
+
+.doctors-img {
+	width: 25%;
+	padding-right: 0.5rem;
+	border-radius: 1rem;
+}
+
+.label {
+	box-shadow: 0 0 1rem 0.15rem rgba(167, 167, 167, 0.5);
+	border-radius: 2rem;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #fff;
+}
+
+.badge {
+	text-align: center;
+	padding: 0.5rem;
+	width: 4rem;
+	height: 4.5rem;
+	background-color: #6d5ce8;
+	border-radius: 1rem;
+}
+
+.schedule-div h6 {
+	margin: 0;
+	margin-top: 0.5rem;
+}
